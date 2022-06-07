@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="370.0" prefWidth="400.0" style="-fx-background-color: #FBCEB5;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="save_nature.EnterForm">
+   <children>
+      <Pane prefHeight="370.0" prefWidth="400.0" style="-fx-background-color: #FBCEB5;">
+         <children>
+            <Button fx:id="enterBtn" layoutX="131.0" layoutY="248.0" mnemonicParsing="false" onAction="#enterBtnClick" prefHeight="58.0" prefWidth="136.0" style="-fx-background-color: #FF9415;" text="Ввійти">
+               <font>
+                  <Font name="Arial Bold" size="27.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.2786259387285655" startY="0.36259541984732824">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.9833333492279053" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <PasswordField fx:id="enterPassFiled" layoutX="219.0" layoutY="173.0" style="-fx-background-color: #FF6A28; -fx-text-inner-color: white;" />
+            <TextField fx:id="enterLoginFiled" layoutX="24.0" layoutY="173.0" style="-fx-background-color: #FF6A28; -fx-text-inner-color: white;" />
+            <Label layoutX="81.0" layoutY="150.0" text="Логін">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.2786259387285655" startY="0.36259541984732824">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.9833333492279053" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill></Label>
+            <Label layoutX="270.0" layoutY="150.0" text="Пароль">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.2786259387285655" startY="0.36259541984732824">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.9833333492279053" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="150.0" layoutY="49.0" text="Вхід">
+               <font>
+                  <Font name="Arial Bold" size="53.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.2786259387285655" startY="0.36259541984732824">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.9833333492279053" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Button fx:id="enterNoAccount" layoutX="105.0" layoutY="333.0" mnemonicParsing="false" onAction="#enterNoAccountClick" prefHeight="17.0" prefWidth="189.0" style="-fx-background-color: #FF9415;" text="Немає акаунту?">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.2786259387285655" startY="0.36259541984732824">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.9833333492279053" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Arial Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

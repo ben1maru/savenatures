@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="350.0" prefWidth="403.0" style="-fx-background-color: #FBCEB5;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="save_nature.RegForm">
+   <children>
+      <Pane layoutX="3.0" prefHeight="355.0" prefWidth="400.0" style="-fx-background-color: #FBCEB5;">
+         <children>
+            <Button fx:id="RegButton" layoutX="119.0" layoutY="258.0" mnemonicParsing="false" onAction="#RegBtnClick" prefHeight="63.0" prefWidth="163.0" style="-fx-background-color: #FF9415;" text="Зареєструватися">
+               <font>
+                  <Font name="Arial Bold" size="16.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.3320610523223877" startY="0.3396946419286364">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.949999988079071" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill></Button>
+            <Label layoutX="98.0" layoutY="99.0" text="Ім'я">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.3320610523223877" startY="0.3396946419286364">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.949999988079071" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <TextField fx:id="name_Filed" layoutX="38.0" layoutY="116.0" style="-fx-background-color: #FF6A28; -fx-text-inner-color: white;" />
+            <TextField fx:id="loginFiled" layoutX="38.0" layoutY="187.0" style="-fx-background-color: #FF6A28; -fx-text-inner-color: white;" />
+            <TextField fx:id="sName_Filed" layoutX="213.0" layoutY="116.0" style="-fx-background-color: #FF6A28; -fx-text-inner-color: white;" />
+            <PasswordField fx:id="PassFiled" layoutX="213.0" layoutY="187.0" style="-fx-background-color: #FF6A28; -fx-text-inner-color: white;" />
+            <Label layoutX="256.0" layoutY="98.0" text="Прізвище">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.3320610523223877" startY="0.3396946419286364">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.949999988079071" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="93.0" layoutY="170.0" text="Логін">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.3320610523223877" startY="0.3396946419286364">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.949999988079071" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="263.0" layoutY="168.0" text="Пароль">
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.3320610523223877" startY="0.3396946419286364">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.949999988079071" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label layoutX="119.0" layoutY="35.0" prefHeight="44.0" prefWidth="163.0" text="Реєстрація">
+               <font>
+                  <Font name="Arial" size="31.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.3320610523223877" startY="0.3396946419286364">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.949999988079071" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

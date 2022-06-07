@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="601.0" style="-fx-background-color: #FBCEB5;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="save_nature.SignsForm">
+   <children>
+      <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutY="200.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FBCEB5;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="26.0">
+         <content>
+            <FlowPane fx:id="signsPane" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="376.0" prefWidth="602.0" style="-fx-background-color: #FBCEB5;" />
+         </content>
+      </ScrollPane>
+      <HBox fx:id="adminBtnBox" prefHeight="26.0" prefWidth="602.0" style="-fx-background-color: #FBCEB5;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-1.3999999999999773">
+         <children>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#EditSignsClick" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #FF9966;" text="Редагувати" HBox.hgrow="ALWAYS">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.31297708285673886" startY="0.37022903675341423">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.9333333373069763" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#DeleteSignsClick" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #FF9966;" text="Видалити" HBox.hgrow="ALWAYS">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.31297708285673886" startY="0.37022903675341423">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.9333333373069763" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font></Button>
+            <Button maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" mnemonicParsing="false" onAction="#AddSignsClick" prefHeight="26.0" prefWidth="150.0" style="-fx-background-color: #FF9966;" text="Додати" HBox.hgrow="ALWAYS">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.31297708285673886" startY="0.37022903675341423">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.9333333373069763" green="1.0" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+               <font>
+                  <Font name="Arial Bold" size="14.0" />
+               </font></Button>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

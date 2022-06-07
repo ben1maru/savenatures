@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="508.0" style="-fx-background-color: #FBCEB5;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="save_nature.DemonstrationForm">
+   <children>
+      <TextArea fx:id="textArea" editable="false" layoutY="200.0" prefHeight="281.0" prefWidth="508.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <font>
+            <Font size="18.0" />
+         </font></TextArea>
+      <Label fx:id="kindLabel" layoutX="14.0" layoutY="14.0" text="Вид діяльності: " AnchorPane.leftAnchor="14.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2824427471816085" startY="0.3206106724629875">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.949999988079071" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label fx:id="typeLabel" layoutX="14.0" layoutY="42.0" text="Вплив на природу : " AnchorPane.leftAnchor="14.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2824427471816085" startY="0.3206106724629875">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.949999988079071" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label fx:id="nameLabel" layoutX="19.0" layoutY="75.0" text="Назва: " AnchorPane.leftAnchor="14.0">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2824427471816085" startY="0.3206106724629875">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="1.0" green="0.949999988079071" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+   </children>
+</AnchorPane>

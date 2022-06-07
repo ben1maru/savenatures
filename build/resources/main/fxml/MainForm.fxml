@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="363.0" prefWidth="479.0" style="-fx-background-color: #FBCEB5;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="save_nature.MainForm">
+   <children>
+      <MenuBar layoutX="-1.0" layoutY="1.0" prefHeight="26.0" prefWidth="443.0" style="-fx-background-color: #FE2F57;" AnchorPane.leftAnchor="-1.0" AnchorPane.rightAnchor="1.0">
+        <menus>
+          <Menu mnemonicParsing="false" style="-fx-background-color: #FF9966; -fx-background-radius: 10;" text="Авторизація">
+            <items>
+              <MenuItem mnemonicParsing="false" onAction="#enterClick" text="Увійти" />
+                  <MenuItem fx:id="RegisterButton" mnemonicParsing="false" onAction="#RegisterItemClick" text="Зареєструватися" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" style="-fx-background-color: #FF9966; -fx-background-radius: 10;" text="Довідка">
+            <items>
+              <MenuItem fx:id="aboutAutors" mnemonicParsing="false" onAction="#setAboutAutors" text="Про автора" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <MenuButton fx:id="signsButton" alignment="CENTER" layoutX="81.0" layoutY="162.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="319.0" style="-fx-background-color: #FBE7B5;" text="Вплив на природу" textAlignment="CENTER" textFill="#426534" AnchorPane.leftAnchor="81.0" AnchorPane.rightAnchor="79.0">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font size="19.0" />
+         </font></MenuButton>
+      <Label layoutX="50.0" layoutY="65.0" text="Довідник як зберегти природу" textFill="#3c5133" AnchorPane.topAnchor="65.0">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

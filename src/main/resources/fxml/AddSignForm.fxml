@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="262.0" prefWidth="348.0" style="-fx-background-color: #FBCEB5;" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="save_nature.AddSignForm">
+   <children>
+      <ChoiceBox fx:id="kindBox" layoutX="78.0" layoutY="22.0" prefHeight="26.0" prefWidth="223.0" style="-fx-background-color: #FF6A28;" AnchorPane.rightAnchor="15.0" />
+      <ChoiceBox fx:id="typeBox" layoutX="78.0" layoutY="62.0" prefHeight="26.0" prefWidth="223.0" style="-fx-background-color: #FF6A28;" AnchorPane.rightAnchor="15.0" />
+      <Label layoutX="14.0" layoutY="26.0" text="Вид:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2824427403566492" startY="0.37022903675341423">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9833333492279053" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="14.0" layoutY="66.0" text="Тип:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2824427403566492" startY="0.37022903675341423">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9833333492279053" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Label layoutX="14.0" layoutY="104.0" text="Ім'я:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2824427403566492" startY="0.37022903675341423">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9833333492279053" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <TextField fx:id="nameTextBox" layoutX="78.0" layoutY="100.0" prefHeight="26.0" prefWidth="223.0" style="-fx-background-color: #FF6A28; -fx-text-inner-color: white;" AnchorPane.rightAnchor="15.0" />
+      <Label layoutX="10.0" layoutY="141.0" text="Опис:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2824427403566492" startY="0.37022903675341423">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9833333492279053" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <TextField fx:id="definitionTextBox" layoutX="78.0" layoutY="137.0" prefHeight="26.0" prefWidth="223.0" style="-fx-background-color: #FF6A28; -fx-text-inner-color: white;" AnchorPane.rightAnchor="15.0" />
+      <ChoiceBox fx:id="categoryBox" layoutX="78.0" layoutY="175.0" prefHeight="26.0" prefWidth="223.0" style="-fx-background-color: #FF6A28;" AnchorPane.rightAnchor="15.0" />
+      <Label layoutX="10.0" layoutY="180.0" text="Категорія:">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2824427403566492" startY="0.37022903675341423">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9833333492279053" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill></Label>
+      <Button layoutX="15.0" layoutY="222.0" mnemonicParsing="false" onAction="#addButtonClick" style="-fx-background-color: #FF9415;" text="Додати" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="15.0">
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0" startX="0.2824427403566492" startY="0.37022903675341423">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.9833333492279053" green="1.0" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
